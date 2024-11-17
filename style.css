@@ -1,0 +1,426 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+  .catalog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0ff;
+    width: 140px;
+    gap: 5px;
+    border-radius: 5px;
+    height: 50px;
+  }
+
+  .catalog > h2{
+    font-size: 16px;
+    color: blue;
+    font-family: sans-serif
+  }
+  .uzumLogo{
+    display: flex;
+    align-items: center;
+   
+  }
+
+
+  .uzumMarket{
+    padding: 22px 70px;
+  }
+
+  .SearchInput > input{
+    width: 500px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+  .SearchInput{
+    padding-left: 40px;
+  }
+
+  .user{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 20px;
+    padding: 15px;
+  }
+
+  .user  >h2{
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+
+  .user:hover{
+    background:rgb(222, 224, 229);
+    color: blue;
+    
+    
+  }
+
+  .like{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    gap: 7px;
+    padding: 15px;
+  }
+
+  .like >h2{
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+
+  .like:hover{
+    background:rgb(222, 224, 229) ;
+    color: blue;
+  }
+
+
+  
+  .savat{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    gap: 7px;
+    padding: 15px;
+  }
+
+  .savat >h2{
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+
+  .savat:hover{
+    background:rgb(222, 224, 229) ;
+    color: blue;
+  }
+
+
+  .MudatliTolov{
+    padding: 22px 70px;
+    display: flex;
+    align-items: center;
+   
+   
+  }
+
+
+  .TovarLarTuri{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .TovarLarTuri  >p{
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  .Buyumlar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
+  }
+
+.Elektronika{
+  font-family: sans-serif;
+  font-size: 17px;
+  color: darkcyan;
+}
+.Elektronika:hover{
+  background:rgb(222, 224, 229) ;
+  color: blue;
+}
+
+
+
+.Elektronika{
+  padding: 10px;
+}
+
+.MaishiyTexnika{
+  font-family: sans-serif;
+  font-size: 17px;
+  color: darkcyan;
+  padding: 10px;
+}
+.MaishiyTexnika:hover{
+  background:rgb(222, 224, 229) ;
+  color: blue;
+}
+
+.Kiyim{
+  font-family: sans-serif;
+  font-size: 17px;
+  color: darkcyan;
+}
+.Kiyim{
+  padding: 10px;
+}
+.Kiyim:hover{
+  background:rgb(222, 224, 229) ;
+  color: blue;
+}
+
+.Poyabzallar{
+  font-family: sans-serif;
+  font-size: 17px;
+  color: darkcyan;
+  padding: 10px;
+}
+.Poyabzallar:hover{
+  background:rgb(222, 224, 229) ;
+  color: blue;
+}
+
+.Aksessuarlar{
+  font-family: sans-serif;
+  font-size: 17px;
+  color: darkcyan;
+  padding: 10px;
+}
+
+.Aksessuarlar:hover{
+  background:rgb(222, 224, 229) ;
+  color: blue;
+}
+
+
+.GozallikVaParvarish {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: darkcyan;
+  padding: 10px;
+}
+.GozallikVaParvarish:hover{
+  background:rgb(222, 224, 229) ;
+  color: blue;
+}
+
+
+.Salomatlik{
+  font-family: sans-serif;
+  font-size: 17px;
+  color: darkcyan;
+  padding: 10px;
+}
+.Salomatlik:hover{
+  background:rgb(222, 224, 229) ;
+  color: blue;
+}
+
+.QurilishVaTamirlash{
+  font-family: sans-serif;
+  font-size: 17px;
+  color: darkcyan;
+  padding: 10px;
+}
+.QurilishVaTamirlash:hover{
+  background:rgb(222, 224, 229) ;
+  color: blue;
+}
+
+
+.big-photo{
+  padding: 22px 110px;
+}
+
+.ArzonNarxlar{
+  padding: 22px 70px;
+}
+
+.productsMany{
+  padding: 22px 70px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+
+.cart > p{
+  width: 250px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  line-height: 25px;
+  font-size: 20px;
+  /* margin-left: 5px; */
+}
+
+.cart > button {
+  width: 230px;
+  /* margin-left: 5px; */
+  height: 50px;
+  color: white;
+  background: blue;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  margin-top: 10px;
+  transition: all 1s;
+}
+
+
+
+.like_img{
+  margin-left: -4vw;
+  margin-bottom: 17vw;
+  width: 3vw;
+  
+}
+
+.cart > h3{
+  font-family: sans-serif;
+  margin-top: 10px;
+  background: yellow;
+  width: 230px;
+  text-align: center;
+  height: 50px;
+  padding-top: 15px;
+  border-radius: 10px;
+  transition: 0.9s all ease;
+}
+
+.cart > h4{
+  text-decoration: line-through;
+  margin-top: 15px;
+
+  font-family: sans-serif;
+  color: darkcyan;
+  font-size: 20px;
+}
+
+
+.cart >h3:hover{
+  background:blue;
+  color: white;
+}
+
+.uzumMarket{
+  position: sticky;
+  top: 0;
+  background:white;
+  z-index: 100;
+  border:silver 2px solid;
+}
+
+
+
+.hello{
+  background: red;
+  width: 500px;
+  height: 500px;
+}
+
+
+
+
+
+
+.product-display{
+  background: red;
+  border: 1px solid red;
+  width: 500px;
+  height: 500px;
+  display: flex;
+margin-left: 17vw;
+ position: fixed;
+ top: 150px;
+ left: 100px;
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(10px);
+ background: rgba(0, 0, 0, 0.7);
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+   z-index: 1000;
+}
+.product_img{
+  padding-top: 1vw;
+}
+
+.Buttoncolor{
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+
+.searched-products {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.searched-products_cart {
+  margin-left: 15vw;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  gap:10vw;
+  position: fixed;
+  padding: 10px;
+  width: 70vw;
+  height: 30vw;
+  z-index: 9999;
+background-color: white;
+border-radius: 0px 0px 10px 10px;
+border: darkcyan 2px solid;
+}
+
+.searched-product_img > img{
+  width: 250px;
+  background-color: blue;
+  padding: 1vw;
+  border-radius: 15px;
+  margin-left: 2vw;
+}
+
+.h4_div > h4{
+  font-family: sans-serif;
+  font-size: 2.5vw;
+  color: blue;
+}
+
+.h4_div{
+display: flex;
+flex-direction: column;
+  gap: 10px;
+  row-gap: 2vw;
+  color: black;
+  margin-left: -45px;
+}
+.h4_div > p{
+width: 600px;
+font-family: sans-serif;
+color:darkcyan;
+font-size: 2vw;
+}
+
+.h4_div > h2{
+  font-family: sans-serif;
+  font-size: 2vw;
+  color: blue;
+}
+
+.YopishMenu{
+  width: 220px;
+  height: 55px;
+  color: white;
+  background-color: blue;
+  border: none;
+  font-size: 1.8vw;
+border-radius: 10px;
+margin-top: 10px;
+}

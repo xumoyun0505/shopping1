@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="uzumMarket">
+      <div class="uzumLogo">
+        <img src="/img/uzuMLOGO.svg" alt="UzumLoGo" />
+        <div class="catalog">
+          <img src="/img/katalog.svg" alt="katalog" />
+          <h2>Katalog</h2>
+        </div>
+        <div class="searched-products">
+          <h1 class="searcher-title"></h1>
+          <div class="searched-results"></div>
+        </div>
+
+        <div class="SearchInput">
+          <input
+            type="text"
+            placeholder="Mahsulotlar va turkumlar izlash"
+            class="seachProduct"
+            id="seachInput"
+          />
+        </div>
+        <div class="user">
+          <img src="/img/user.svg" alt="user" />
+          <h2>Kirish</h2>
+        </div>
+        <div class="like">
+          <img src="/img/like.svg" alt="like" />
+          <h2>Saralangan</h2>
+        </div>
+        <div class="savat">
+          <img src="/img/savat.svg" alt="savat" />
+          <h2>Savat</h2>
+        </div>
+      </div>
+    </div>
+    <div class="MudatliTolov">
+      <div class="TovarLarTuri">
+        <img src="/img/mudatlitolov.svg" alt="mudatlitolov" />
+        <p>Muddatli to'lov</p>
+      </div>
+      <div class="Buyumlar">
+        <div class="Elektronika">
+          <p onclick="filterByCategory('electronics')">Elektronika</p>
+        </div>
+
+        <div class="MaishiyTexnika">
+          <p onclick="closeProduct()">Maishiy texnika</p>
+        </div>
+        <div class="Kiyim">
+          <p>Kiyim</p>
+        </div>
+        <div class="Poyabzallar">
+          <p>Poyabzallar</p>
+        </div>
+        <div class="Aksessuarlar">
+          <p>Aksessuarlar</p>
+        </div>
+        <div class="GozallikVaParvarish">
+          <p>Goʻzallik va parvarish</p>
+        </div>
+        <div class="Salomatlik">
+          <p>Salomatlik</p>
+        </div>
+        <div class="QurilishVaTamirlash">
+          <p>Qurilish va taʼmirlash</p>
+        </div>
+      </div>
+    </div>
+    <div class="big-photo">
+      <img src="/img/div.swiper-container.svg" alt="" />
+    </div>
+    <div class="ArzonNarxlar">
+      <h1>Arzon narxlar</h1>
+    </div>
+    <div class="productsMany"></div>
+    <div class="kurinish"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
